@@ -56,6 +56,11 @@ a:hover {
     padding: 20px 50px;
 }
 
+.row-text-center{
+    font-size: 25px;
+    font-weight: 700;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
