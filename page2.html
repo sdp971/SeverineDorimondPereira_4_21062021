@@ -83,27 +83,22 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+						<label for="name"> Renseignez votre nom</label>
+						<input id="name" class="form-control" type="text" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
+						<label for="email"> Renseignez votre adresse email</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<label for="form-message">Comment nous avez-vous connu ?</label>
+						<input class="form-control" type="text" id="message" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -136,12 +131,12 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com/?lang=fr"><span class="fa fa-twitter icon-md">Twitter</span></a>
+							<a class="social" href="https://twitter.com/?lang=fr"><span class="fa fa-twitter icon-md"></span>Twitter</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md">Facebook</span></a>
+							<a class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md"></span>Facebook</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
@@ -151,7 +146,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md">Instagram</span></a>
+							<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span>Instagram</a>
 						</div>
 					</div>
 				</div>
